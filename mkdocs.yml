@@ -1,0 +1,40 @@
+site_name: Fox Gateway
+
+repo_url: https://github.com/lora3a/fox_gateway
+repo_name: lora3a/fox_gateway
+
+theme:
+  name: material
+  logo: https://www.acmesystems.it/images/LogoAcmeSystemsBlue_160.png
+  palette:
+    scheme: default
+    primary: white
+    accent: blue
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.prune
+    - navigation.indexes
+    - content.code.copy
+    - content.tabs.link
+    - toc.follow
+
+plugins:
+  - search
+  - offline
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - def_list
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      anchorlink: true
+
+nav:
+  - Install: install.md
+  - Usage: usage.md
+  - Development: dev.md
