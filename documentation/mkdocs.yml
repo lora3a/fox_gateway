@@ -35,6 +35,7 @@ markdown_extensions:
       anchorlink: true
 
 nav:
+  - HOME: index.md
   - Install: install.md
   - Usage: usage.md
   - Development: dev.md
